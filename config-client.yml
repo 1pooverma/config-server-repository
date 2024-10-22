@@ -3,6 +3,12 @@ spring:
     config:
       allow-override: true
       override-none: true
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+
 
 cloud:
   config:
@@ -20,6 +26,5 @@ eureka:
 zipkin:
   base-url: http://172.21.20.124:9411
 
-version: 12
 
 
