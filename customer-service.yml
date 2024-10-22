@@ -1,13 +1,3 @@
 customer-service:
- eureka:
-  instance:
-   instance-id: ${spring.application.name}:${instanceId:${random.value}}
-  client:
-   service-url:
-    defaultZone: http://localhost:8761/eureka/
-
- zipkin:
-  base-url: http://172.21.20.124:9411
-
  version: 12
 
