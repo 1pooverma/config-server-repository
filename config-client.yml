@@ -1,9 +1,6 @@
 spring:
   zipkin:
     base-url: http://172.21.20.124:9411
-  sleuth:
-    sampler:
-      probability: 0.001
   cloud:
     config:
       uri: http://localhost:8888
@@ -29,11 +26,9 @@ eureka:
 
 logging:
   level:
-   zipkin: DEBUG
    org:
-    springframework:
-     cloud:
-      sleuth: DEBUG
+    springframework: DEBUG
+
 
 
 
