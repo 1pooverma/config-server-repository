@@ -1,6 +1,9 @@
 spring:
   zipkin:
     base-url: http://172.21.20.124:9411
+  sleuth:
+    sampler:
+      probability: 1.0
   cloud:
     config:
       uri: http://localhost:8888
