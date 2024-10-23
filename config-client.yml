@@ -1,4 +1,6 @@
 spring:
+  zipkin:
+    base-url: http://172.21.20.124:9411
   cloud:
     config:
       allow-override: true
@@ -15,8 +17,7 @@ cloud:
     uri: http://localhost:8888
 server:
   port: 0
-zipkin:
-  base-url: http://172.21.20.124:9411
+
 
 eureka:
   instance:
