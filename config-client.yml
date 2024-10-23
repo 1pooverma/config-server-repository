@@ -3,6 +3,7 @@ spring:
     base-url: http://172.21.20.124:9411
   cloud:
     config:
+      uri: http://localhost:8888
       allow-override: true
       override-none: true
     gateway:
@@ -12,9 +13,6 @@ spring:
           lower-case-service-id: true
 
 
-cloud:
-  config:
-    uri: http://localhost:8888
 server:
   port: 0
 
