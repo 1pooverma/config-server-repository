@@ -3,7 +3,7 @@ spring:
     base-url: http://172.21.20.124:9411
   sleuth:
     sampler:
-      probability: 1.0
+      probability: 0.001
   cloud:
     config:
       uri: http://localhost:8888
