@@ -33,7 +33,7 @@ logging:
    org:
     springframework:
      cloud:
-      sleuthD: EBUG
+      sleuth: DEBUG
 
 
 
