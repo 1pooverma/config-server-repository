@@ -1,5 +1,2 @@
 product-catalogue-service:
  version: 12
-
- zipkin:
-  base-url: http://172.21.20.124:9411
