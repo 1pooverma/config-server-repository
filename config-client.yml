@@ -12,7 +12,11 @@ spring:
           enabled: true
           lower-case-service-id: true
 
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health
 
 server:
   port: 0
