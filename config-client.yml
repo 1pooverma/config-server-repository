@@ -1,8 +1,8 @@
 spring:
   security:
     user:
-      name: admin
-      password: admin
+      name: spring_cloud_user
+      password: '1234'
   zipkin:
     base-url: http://172.21.20.124:9411
   cloud:
