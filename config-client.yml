@@ -1,4 +1,8 @@
 spring:
+  security:
+    user:
+      name: admin
+      password: admin
   zipkin:
     base-url: http://172.21.20.124:9411
   cloud:
@@ -33,6 +37,7 @@ logging:
   level:
    org:
     springframework: DEBUG
+
 
 
 
