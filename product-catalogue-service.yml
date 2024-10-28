@@ -25,7 +25,8 @@ product-catalogue-service:
 axon:
  eventhandling:
    processors:
-    product-group.mode: subscribing
+    product-group:
+     mode: subscribing
  axonserver:
   servers: "localhost:8124"
  
