@@ -40,4 +40,4 @@ logging:
      connector:
       event:
        axon:
-        AxonServerEventStore: DEBUG:
+        AxonServerEventStore: DEBUG
