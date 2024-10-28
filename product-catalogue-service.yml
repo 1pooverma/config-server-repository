@@ -29,4 +29,15 @@ axon:
      mode: subscribing
  axonserver:
   servers: "localhost:8124"
- 
+
+
+
+logging:
+ level:
+  org:
+   axonframework:
+    axonserver:
+     connector:
+      event:
+       axon:
+        AxonServerEventStore: DEBUG:
