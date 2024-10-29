@@ -11,11 +11,7 @@ spring:
   database-platform: org.hibernate.dialect.MySQLDialect
   hibernate:
    ddl-auto: update
-  h2:
-   console:
-    enabled: true
-    settings:
-     web-allow-others: true
+
  
  server:
   error:
