@@ -29,7 +29,10 @@ axon:
 networks:
  - estore
 
+
 logging:
+ org:
+  hibernate: ERROR
  level:
   org:
    axonframework:
