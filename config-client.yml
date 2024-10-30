@@ -32,7 +32,7 @@ eureka:
 logging:
   level:
    org:
-    springframework: DEBUG
+    springframework: ERROR
 
 
 
