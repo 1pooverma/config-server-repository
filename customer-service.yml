@@ -1,3 +1,42 @@
 customer-service:
  version: 1288
  mymsg: 'Hello!!'
+
+
+spring:
+ datasource:
+  url: jdbc:mysql://localhost:3306/user?useSSL=false&serverTimezone=UTC
+  username: root
+  password: root
+  driver-class-name: com.mysql.cj.jdbc.Driver
+ jpa:
+  database-platform: org.hibernate.dialect.MySQLDialect
+  hibernate:
+   ddl-auto: update
+
+
+ server:
+  error:
+   include-message: always
+   include-binding-errors: always
+
+axon:
+ eventhandling:
+  processors:
+   product-group:
+    mode: subscribing
+ axonserver:
+  servers: "localhost:8124"
+
+networks:
+ - estore
+
+logging:
+ level:
+  org:
+   axonframework:
+    axonserver:
+     connector:
+      event:
+       axon:
+        AxonServerEventStore: DEBUG
