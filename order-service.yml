@@ -40,4 +40,4 @@ logging:
      connector:
       event:
        axon:
-        AxonServerEventStore: ERROR
+        AxonServerEventStore: INFO
